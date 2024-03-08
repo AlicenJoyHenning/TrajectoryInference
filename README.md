@@ -62,3 +62,16 @@ This is very similar to the types of questions used to be asked of branching tra
 2. Also, and essentially, you must clone the [GitHub repo](https://github.com/kstreet13/bioc2020trajectories)
      
   ![image](https://github.com/AlicenJoyHenning/TrajectoryInference/assets/129797527/48a88c44-51b8-4a87-8029-73353550a25c)
+
+~ATM I'm having trouble with doing the preprocessing so will just work through the workflow stuff using the preprocessed object: 
+```R
+data("sce", package = "bioc2020trajectories")
+```
+> **Differential Topology**
+> Looking at neighbourhoods around each cell and asking does the composition of cells in that neighbourhood match the overall composition of the condition? Within each local neighbourhood around a given cell, we want to see if there is an even divide between the two conditions. 
+> ![image](https://github.com/AlicenJoyHenning/TrajectoryInference/assets/129797527/266d6e3f-ca42-4900-82e8-8f3a3734f5b2)
+>
+> _kbet_: method for assessing normalizing methods is very similar 
+
+
+
