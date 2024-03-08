@@ -51,3 +51,11 @@ Differential expression in the context of continuous psuedotime with a package c
 ```conditionTest```
 
 This is very similar to the types of questions used to be asked of branching trajectories where we ask _is a gene following the same pattern in this branch vs another branch?_, but now we're asking in the context of conditions, _is a gene following a pattern within a condition?_
+
+## Workshop notes 
+* 1. In addition to the packages, you must install the package that was created to carry out this tutorial:
+  ```R
+  install.packages("remotes")
+  remotes::install_github("kstreet13/bioc2020trajectories")
+  library(bioc2020trajectories) 
+```
